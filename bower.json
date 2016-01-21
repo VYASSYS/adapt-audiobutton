@@ -1,0 +1,22 @@
+{
+  "name": "adapt-audiobutton",
+  "version": "1.1",
+  "homepage": "https://github.com/bezdjian/adapt-audiobutton",
+  "authors": [
+    "Chris Steele <chris.steele@kineo.com> & Xtractor AB"
+  ],
+  "displayName": "Audio Button",
+  "component": "audiobutton",
+  "assetFields" : [
+    "_media.ogv",
+    "_media.mp4",
+    "_media.poster"
+  ],
+  "description": "Play/stop button for audio for IE8+",
+  "main": "/js/adapt-audiobutton.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3"
+}

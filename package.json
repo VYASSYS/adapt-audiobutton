@@ -1,0 +1,23 @@
+{
+  "name": "adapt-audiobutton",
+  "version": "1.1",
+  "description": "A audio button component",
+  "main": "",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bezdjian/adapt-audiobutton.git"
+  },
+  "author": "Xtractor AdaptLearning",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/bezdjian/adapt-audiobutton/issues"
+  },
+  "devDependencies": {
+    "karma": "~0.10",
+    "karma-mocha": "0.1.0",
+    "karma-expect": "1.1.0"
+  }
+}

@@ -1,0 +1,21 @@
+Replace this:
+        var d = f('<div class="mejs-button mejs-playpause-button mejs-play" style="margin-left: 39%;width: 20%"><img style="cursor: pointer" src="../../../course/en/images/image1.png" type="button" aria-controls="' + this.id + '" title="' + this.options.playpauseText + '" aria-label="' + this.options.playpauseText + '"></div>').appendTo(b).click(function (g) {
+With the line number (maybe) 1216 where there is the initiation of the play button with class mejs-button mejs-playpause-button mejs-play
+
+
+In media.less
+add:
+
+.mejs-container{
+  background: transparent !important;
+  width: 100% !important;
+}
+.mejs-time-rail{
+  display: none !important;
+}
+.mejs-container .mejs-controls{
+  background: transparent !important;
+}
+
+at the buttom....
+
