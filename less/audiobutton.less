@@ -1,0 +1,36 @@
+.media-component {
+	.me-plugin {
+    position:static;
+	}
+  .external-source {
+    .mejs-container-audiobutton {
+        position: relative;
+        padding-top: 35px;
+        height: 0;
+        overflow: hidden;
+    }
+    .mejs-container-audiobutton iframe {
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .mejs-overlay-button {
+      display: none;
+    }
+  }
+}
+
+
+
+.mejs-container-audiobutton{
+  background: transparent !important;
+  width: 100% !important;
+}
+.mejs-time_audiobutton-rail-audiobutton, .mejs-time_audiobutton{
+  display: none !important;
+}
+.mejs-container-audiobutton .mejs-controls-audiobutton{
+  background: transparent !important;
+}
